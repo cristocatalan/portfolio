@@ -1,0 +1,80 @@
+.seccion-1 {
+    display: flex;
+    justify-content:  center;
+    align-items: center;
+    padding:  2em;
+}
+.seccion-2 img {
+    width: 100%;
+}
+body{
+    border: 0;
+    padding: 0;
+    background-color: blanchedalmond;
+}
+ul {
+    list-style: none  ;
+}
+a { 
+    text-decoration: none;
+}
+header{
+    display: flex;
+    background-color: rgb(214, 105, 61);
+    justify-content: space-between;
+    align-items: center;
+}
+header nav ul { 
+    display: flex;
+    gap: 1em 
+    
+
+}
+header a i {
+    color: bisque;
+    font-size: 3em ;
+    padding: 0.8em
+}
+header nav ul li a {
+    color: azure;
+}
+.roboto-medium {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+.acerca-imagen img {
+    width: 200px;
+    height: 230px;
+}
+footer h3 {
+    color: rgb(194, 35, 23);
+}
+footer {
+    background-color: rgb(214, 105, 61);
+    width: 100%;
+}
+footer nav ul li {
+    color: antiquewhite;
+    padding:  4px   ;
+}
+footer a i {
+    color: bisque;
+    position: fixed;
+    bottom: 25px;
+    right: 30px;
+    font-size: 20px;
+
+}
+
+button {
+    color: rgb(231, 241, 238);
+    background-color: brown;
+    justify-content: center;
+    align-items: center;
+    bottom:25px ;
+    display: flex;
+}
+
+
+  
